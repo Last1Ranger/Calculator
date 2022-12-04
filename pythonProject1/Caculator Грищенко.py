@@ -26,11 +26,13 @@ elif a == 2:
     number1 = int(input("Введите 1-е число:"))  # Ввод первого числа
     number2 = int(input("Введите 2-е число:"))  # Ввод второго числа
     print("Эта программа умеет:")  # пердставляется выбор операций
-    print("1. Уиножать")
+    print("1. Умножать")
     print("2. Делить")
     print("3. Вычислять остаток от деления")
     print("4. Выполнять целочисленное деление")
     print("5. Возводить в степень")
+    print("6. Вычитать")
+    print("7. Складывать")
     operation = int(input("Введите номер операции: "))
     if operation == 1:  # Операция сравнивается с её номером и выполняется соотвецтвенное действие, вслед за чем
         print(number1 * number2) # происходит вывод итога данной операции
@@ -42,6 +44,10 @@ elif a == 2:
         print(number1 // number2)
     elif operation == 5:
         print(number1 ** number2)
+    elif operation == 6:
+        print(number1 + number2)
+    elif operation == 7:
+        print(number1 - number2)
 
 
 elif a == 3:
